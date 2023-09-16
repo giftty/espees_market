@@ -1,0 +1,292 @@
+.signin {
+  background-color: #443a21;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.input {
+  background-color: transparent;
+  border: 0;
+  color: #a5a5a5;
+  font-family: "Poppins", Helvetica;
+  font-size: 23.5px;
+  font-weight: 500;
+  height: 35px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width:85%;
+  border: none;
+  border-bottom: 2px solid rgb(177, 176, 176);
+}
+.signin .overlap-wrapper {
+  background-color: #443a21;
+  height: 924.44px;
+  overflow: hidden;
+  width: 1300px;
+}
+
+.signin .overlap {
+  height: 1031px;
+  left: 27px;
+  position: relative;
+  top: 14px;
+  width: 1344px;
+}
+
+.signin .overlap-group {
+  height: 1031px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1344px;
+}
+
+.signin .div {
+  height: 980px;
+  left: 18px;
+  position: absolute;
+  top: 51px;
+  width: 1326px;
+}
+
+.signin .rectangle {
+  background-color: #ffffff;
+  border-radius: 45.14px;
+  height: 924px;
+  left: 470px;
+  position: absolute;
+  top: 56px;
+  width: 856px;
+}
+
+.signin .the-espees-market {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 27.1px;
+  font-weight: 600;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 84px;
+  width: 440px;
+}
+
+.signin .text-wrapper {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 27.1px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.signin .span {
+  font-size: 43.3px;
+}
+
+.signin .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 43.3px;
+  font-weight: 700;
+  left: 688px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.signin .button-create {
+  all: unset;
+  box-sizing: border-box;
+  height: 67px;
+  left: 670px;
+  position: absolute;
+  top: 323px;
+  width: 477px;
+  
+}
+.signin .button-create .div-wrapper:hover{
+background-color: #443a21;
+  color: white;
+}
+.signin .div-wrapper {
+  background-color: #ff9b03;
+  border-radius: 22.57px;
+  height: 67px;
+  position: relative;
+  width: 475px;
+  transition: all 0.2s ease;
+}
+
+.signin .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 27.1px;
+  font-weight: 700;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+}
+
+.signin .overlap-group-wrapper {
+  height: 67px;
+  left: 670px;
+  position: absolute;
+  top: 400px;
+  width: 477px;
+}
+
+.signin .overlap-2 {
+  background-color: #2176ff;
+  color: #ffffff;
+  border-radius: 22.57px;
+  height: 67px;
+  position: relative;
+  width: 475px;
+  transition: all 0.5s ;
+  cursor: pointer;
+}
+.signin .overlap-2:hover{
+ color:#2176ff;
+ background-color:#ffffff;
+
+}
+.signin .text-wrapper-4 {
+  font-family: "Poppins", Helvetica;
+  font-size: 27.1px;
+  font-weight: 700;
+  left: 93px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+}
+
+.signin .text-wrapper-5 {
+  color: #a5a5a5;
+  font-family: "Poppins", Helvetica;
+  font-size: 23.5px;
+  font-weight: 500;
+  left: 700px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 500px;
+  width: 319px;
+}
+
+.signin .text-wrapper-6 {
+  color: #b0d8da;
+  font-family: "Poppins", Helvetica;
+  font-size: 23.5px;
+  font-weight: 500;
+  left: 1000px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 500px;
+}
+
+.signin .email-address {
+  height: 36px;
+  left: 670px;
+  position: absolute;
+  top: 148px;
+  width: 85%;
+}
+
+.signin .overlap-3 {
+  height: 36px;
+  position: relative;
+  width: 475px;
+}
+
+.signin .text-wrapper-7 {
+  color: #a5a5a5;
+  font-family: "Poppins", Helvetica;
+  font-size: 23.5px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.signin .line {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 475px;
+}
+
+.signin .password {
+  height: 36px;
+  left: 670px;
+  position: absolute;
+  top: 250px;
+  width: 85%;
+}
+
+.signin .eye-off {
+	width: 18px;
+	height: 18px;
+	position: relative;
+	left: 90%;
+}
+
+.signin .emarketmockup {
+  height: 431px;
+  left: 220px;
+  object-fit: cover;
+  position: absolute;
+  top: 200px;
+  width: 425px;
+}
+
+.signin .element {
+  height: 415px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 406px;
+  width: 379px;
+}
+
+.signin .image {
+  height: 66px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.signin .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 16.2px;
+  font-weight: 600;
+  left: 1117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+}
+
+.signin .polygon {
+  height: 17px;
+  left: 1220px;
+  position: absolute;
+  top: 31px;
+  width: 22px;
+}
