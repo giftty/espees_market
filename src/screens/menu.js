@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOMClient from "react-dom/client";
 import { useState } from 'react';
-import '../../Ecommerce-main/css/home_1.css'
+import '../../mainstyle.css'
 import MenuTabComponent from "../components/menuTabComponent";
 export var Menu = ()=>{
  return( 

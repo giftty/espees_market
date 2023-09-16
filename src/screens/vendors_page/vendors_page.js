@@ -15,7 +15,7 @@ export const Vendors = () => {
         <div className="overlap">
           <div className="search-bar-wrapper">
             <div className="search-bar">
-              <input className="search-for-people" placeholder="Search for dashboard .." />
+              <input className="search-for-people" placeholder="Search for dashboard ..." />
             </div>
           </div>
           <div className="frame-2">
