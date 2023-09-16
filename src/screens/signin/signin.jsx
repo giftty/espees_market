@@ -19,7 +19,7 @@ export default SignIn = () => {
                 </span>
               </p>
               <div className="text-wrapper-2">Create Account</div>
-               <a href="/marketPage">
+               <a href="/market">
                 <button className="button-create">
                   <div className="div-wrapper">
                     <div className="text-wrapper-3">Login</div>

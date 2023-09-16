@@ -2,6 +2,7 @@ import React from "react";
 import VuesaxBoldSetting21 from "/src/icons/VuesaxBoldSetting21/VuesaxBoldSetting21.jsx";
 import VuesaxBoldWallet3  from "/src/icons/VuesaxBoldWallet3/VuesaxBoldWallet3.jsx";
 import "./marketpage.css";
+import TabSwitch from "../../components/tabswitch";
 
 export default MarketPage = () => {
   return (
@@ -11,14 +12,12 @@ export default MarketPage = () => {
           <div className="overlap">
             <div className="rectangle" />
             <div className="rectangle-2" />
-            <img className="image" alt="Image" />
-            <VuesaxBoldSetting21 className="vuesax-bold-setting" />
+            <img src="/img/platformprop.png" className="image" alt="Image" />
             <img
               className="vuesax-bold-frame"
               alt="Vuesax bold frame"
               src="https://cdn.animaapp.com/projects/650197e91fcc5d1ea3e29808/releases/6502fc2f875ec22a96bf51b5/img/vuesax-bold-frame-2.svg"
             />
-            <VuesaxBoldWallet3 className="vuesax-bold-wallet" />
             <div className="rectangle-3" />
             <div className="rectangle-4" />
             <img
@@ -55,10 +54,10 @@ export default MarketPage = () => {
             <div className="rectangle-5" />
             <div className="group">
               <div className="search-bar">
-                <div className="search-for-people">Make a post............</div>
+                <input className="search-for-people" placeholder= "Make a post............" />
               </div>
             </div>
-            <img className="ellipse" alt="Ellipse" />
+            <img src="/img/profile89.png" className="ellipse" alt=" " />
             <div className="overlap-wrapper">
               <div className="overlap-group">
                 <div className="overlap-2">
@@ -105,15 +104,7 @@ export default MarketPage = () => {
               </div>
             </div>
           </div>
-          <div className="overlap-3">
-            <div className="rectangle-6" />
-            <div className="overlap-group-wrapper">
-              <div className="div-wrapper">
-                <div className="text-wrapper-10">Market</div>
-              </div>
-            </div>
-            <div className="text-wrapper-11">Vendors</div>
-          </div>
+          <TabSwitch type='market' />
         </div>
         <div className="group-2">
           <div className="overlap-group-2">
@@ -127,7 +118,7 @@ export default MarketPage = () => {
               <div className="caption">Clients</div>
             </div>
           </div>
-          <img className="ellipse-2" alt="Ellipse" />
+          <img src="/img/profile89.png" className="ellipse-2" alt="Ellipse" />
         </div>
         <img
           className="vuesax-bold-2"
@@ -150,8 +141,7 @@ export default MarketPage = () => {
           <div className="group-5">
             <div className="overlap-5">
               <img
-                className="ellipse-6"
-                alt="Ellipse"
+                className="ellipse-6" alt=""
                 src="https://cdn.animaapp.com/projects/650197e91fcc5d1ea3e29808/releases/6502fc2f875ec22a96bf51b5/img/ellipse-1207-1.svg"
               />
               <div className="element-espees">

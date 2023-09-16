@@ -11,7 +11,7 @@
   height: 1281.04px;
   overflow: hidden;
   position: relative;
-  width: 1300px;
+  width:100%;
 }
 
 .market .overlap {
@@ -249,6 +249,7 @@
   position: relative;
   top: 13px;
   width: 276px;
+  
 }
 
 .market .search-for-people {
@@ -261,9 +262,11 @@
   letter-spacing: 0.22px;
   line-height: normal;
   opacity: 0.3;
-  position: absolute;
+  position: relative;
   top: 0;
-  width: 274px;
+  width: 110%;
+  border: 0;
+
 }
 
 .market .ellipse {
@@ -1045,3 +1048,5 @@
   top: 624px;
   width: 111px;
 }
+
+ 

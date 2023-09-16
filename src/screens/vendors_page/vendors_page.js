@@ -1,20 +1,21 @@
 import React from "react";
-import { CategoriesFilter } from "../../components/CategoriesFilter";
-import { Feature } from "../../components/Feature";
+// import { CategoriesFilter } from "../../icons/CategoriesFilter";
+// import { Feature } from "../../components/Feature";
 import { CloseRound } from "../../icons/CloseRound";
-import { FilterBig } from "../../icons/FilterBig";
-import { VuesaxBoldSetting21 } from "../../icons/VuesaxBoldSetting21";
-import { VuesaxBoldWallet2 } from "../../icons/VuesaxBoldWallet2";
-import "./style.css";
+import { FilterBig } from "../../icons/CategoriesFilter/FilterBig";
+import VuesaxBoldSetting21  from "../../icons/VuesaxBoldSetting21/VuesaxBoldSetting21.jsx";
+import  VuesaxBoldWallet2  from "../../icons/VuesaxBoldWallet3/VuesaxBoldWallet3";
+import "./vendor.css";
+import TabSwitch from "../../components/tabswitch";
 
-export const Index = () => {
+export const Vendors = () => {
   return (
-    <div className="index">
+    <div className="vendor">
       <div className="div-2">
         <div className="overlap">
           <div className="search-bar-wrapper">
             <div className="search-bar">
-              <div className="search-for-people">Search for dashboard ..</div>
+              <input className="search-for-people" placeholder="Search for dashboard .." />
             </div>
           </div>
           <div className="frame-2">
@@ -53,7 +54,7 @@ export const Index = () => {
                 />
               </div>
             </div>
-            <Feature
+            {/* <Feature
               className="feature-4"
               divClassName="feature-4-instance"
               divClassNameOverride="design-component-instance-node"
@@ -63,7 +64,7 @@ export const Index = () => {
               overlapGroupClassName="feature-3"
               rectangleClassName="feature-5"
               text="Esp 75.00"
-            />
+            /> */}
             <div className="feature-7">
               <div className="frame-4">
                 <div className="text-wrapper-6">Elegant Dress</div>
@@ -116,7 +117,7 @@ export const Index = () => {
                 />
               </div>
             </div>
-            <Feature
+            {/* <Feature
               className="feature-4"
               divClassName="feature-4-instance"
               divClassNameOverride="design-component-instance-node"
@@ -126,7 +127,7 @@ export const Index = () => {
               overlapGroupClassName="feature-3"
               rectangleClassName="feature-5"
               text="Esp 75.00"
-            />
+            /> */}
             <div className="feature-7">
               <div className="frame-4">
                 <div className="text-wrapper-6">Elegant Dress</div>
@@ -451,7 +452,7 @@ export const Index = () => {
                 <CloseRound className="close-round-2" />
                 <CloseRound className="close-round-3" />
                 <CloseRound className="close-round-1" />
-                <CategoriesFilter
+                {/* <CategoriesFilter
                   className="categories-filter-instance"
                   divClassName="categories-filter-4"
                   group="https://cdn.animaapp.com/projects/650197e91fcc5d1ea3e29808/releases/6502fc2f875ec22a96bf51b5/img/group-33141@2x.png"
@@ -461,7 +462,7 @@ export const Index = () => {
                   rectangleClassName="categories-filter-5"
                   vector="https://cdn.animaapp.com/projects/650197e91fcc5d1ea3e29808/releases/6502fc2f875ec22a96bf51b5/img/vector-11.svg"
                   vectorClassName="categories-filter-6"
-                />
+                /> */}
               </div>
               <div className="group-14">
                 <div className="text-wrapper-41">Star Rating</div>
@@ -497,14 +498,10 @@ export const Index = () => {
           />
         </div>
         <div className="overlap-15">
-          <div className="rectangle-12" />
-          <div className="overlap-wrapper">
-            <div className="overlap-16">
-              <div className="text-wrapper-45">Market</div>
-            </div>
-          </div>
-          <div className="text-wrapper-46">Vendors</div>
+          <TabSwitch type='vendor'/>
+          
         </div>
+      
       </div>
     </div>
   );

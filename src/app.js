@@ -4,11 +4,11 @@ import { LandingPage } from "./screens/LandingPage";
 import  Signin from "./screens/signin/signin";
 import { SignUp } from "./screens/signup/signup";
 import MarketPage from "./screens/marketpage/marketpage";
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { Vendors } from "./screens/vendors_page/vendors_page";
 
 
 const router = createBrowserRouter([
@@ -28,11 +28,11 @@ const router = createBrowserRouter([
    path:"market",
    element:<MarketPage/>,
    children:[
-     {
-      path:"marketPage",
-      element:<MarketPage/>
-     }
    ]
+  },
+  {
+   path:"vendors",
+   element:<Vendors/>
   }
 ]);
 
